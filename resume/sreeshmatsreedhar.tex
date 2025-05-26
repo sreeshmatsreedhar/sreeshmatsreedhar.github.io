@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Sreeshma T                                %
+%                                          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% -------------- Resume ---------------
+\documentclass{resume}
+\usepackage{keycommand}
+
+\begin{document}
+
+% --------- Contact Information -----------
+\introduction[
+    fullname={SREESHMA T},
+    email={sreeshmatsreedhar@gmail.com},
+    phone={+91 7594990969},
+    linkedin={linkedin.com/in/sreeshma-t-4837472b7/},
+    github={github.com/sreeshmatsreedhar}
+]
+
+% --------- Summary -----------
+\summary{M.Sc. Applied Physics student specializing in VLSI Design, with internship experience at ProvLogic focused on digital design and verification. Project work includes RTL implementation of a 32-bit advanced high-speed serial CRC for real-time applications. Seeking a full-time position in RTL design, FPGA/ASIC development, or digital hardware verification starting May, 2025. }
+
+
+
+% --------- Skills -----------
+\begin{skillsSection}{Technical Skills}
+    \skillItem[
+        category={Programming Languages},
+        skills={C++, Python, Embedded C}
+    ] \\
+    \skillItem[
+        category={Tools},
+        skills={Proteus Design Suite, LTspice, Arduino IDE}
+    ] \\
+    \skillItem[
+        category={Microcontrollers},
+        skills={ESP 8266, ATMEGA382P}
+    ] \\
+    \skillItem[
+        category={FPGA Platform},
+        skills={Basys 3}
+    ]
+    
+\end{skillsSection}
+
+% --------- Experience -----------
+\begin{experienceSection}{Professional Experience}
+    \experienceItem[
+        company={ProV Logic},
+        location={(Online Internship)},
+        position={Intern},
+        duration={Feb 2025 – Present}
+    ]
+   \begin{itemize}
+    \item \textbf{32-bit Advanced High-Speed Serial CRC Design for Real-Time Applications} (EDA Playground)
+    \item Implemented a 32-bit CRC generator based on the IEEE 802.3 standard using Verilog HDL. Designed the architecture using shift registers, XOR gates, and a Linear Feedback Shift Register (LFSR).
+\end{itemize}
+    \experienceItem[
+        company={India Innovation Center for Graphene (IICG)},
+        location={Kerala University of Digital Sciences},
+        position={Intern},
+        duration={Feb 2024 – Jun 2024}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item \textbf{Mxene Based Electrochemical Smart Window}: A simulation study for enhancing building energy efficiency (COMSOL Multiphysics)
+        \item Simulated electrochromic performance of \(\mathrm{Ti}_3\mathrm{C}_2\mathrm{Tx}\) MXene-based smart windows in two configurations.
+    \end{itemize}
+
+\end{experienceSection}
+
+% --------- Projects -----------
+\begin{experienceSection}{Academic projects}
+\projectItem[
+        title={Home Automation with Blynk using NodeMCU ESP8266},
+        duration={Sept 2023 – Jan 2024},
+        keyHighlight=Tools \& Technologies
+    ]
+     \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Designed and implemented a 32-bit parallel Cyclic Redundancy Check (CRC) architecture capable of processing 64-bit input data using syndrome table-based approach.
+    \end{itemize}
+    \projectItem[
+            title={IoT Based Smart Warehouse Monitoring System},
+            duration={Sept 2023 – Jan 2024},
+            keyHighlight=Tools \& Technologies: ESP8266; BME680 sensor; Arduino IDE
+        ]
+     \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Designed and implemented a 32-bit parallel Cyclic Redundancy Check (CRC) architecture capable of processing 64-bit input data using syndrome table-based approach.
+    \end{itemize}
+    \projectItem[
+        title={Design and Multiphysics Simulation of a COMSOL-Based Ethanol Breath Sensor with an Analog Front End},
+        duration={Aug 2024 – Jan 2025},
+        keyHighlight=
+    ]\\
+    \projectItem[
+        title={Design and Verification of a High speed CRC-32 Generator for Real time Applications},
+        duration={Jan 2025 – May 2025},
+        keyHighlight=Simulated and verified the design using Vivado
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Designed and implemented a 32-bit parallel Cyclic Redundancy Check (CRC) architecture capable of processing 64-bit input data using syndrome table-based approach.
+    \end{itemize}
+
+    \projectItem[
+        title=Universal Asynchronous Receiver/Transmitter Implementation on FPGA,
+        duration=Jan 2025 – May 2025,
+        keyHighlight=UART is implemented using the VIVADO for Basys3 FPGA board]\\
+    \projectItem[
+            title=Simulation of CMOS Potentiostat Circuit for Electrochemical Sensors,
+            duration=Aug 2024 – Jan 2025,
+            keyHighlight=Designed and simulated a CMOS potentiostat circuit optimized for electrochemical sensors using Cadence Design Systems; Generic 90nm PDK (gpdk090)
+        ]
+\end{experienceSection}
+% --------- Education ---------
+\begin{educationSection}{Education}
+    \educationItem[
+        university={Kerala University of Digital Sciences, Innovation and Technology},
+        college={(Digital University Kerala), Thiruvananthapuram},
+        graduation={2025},
+        grade={7.31/10 GPA},
+        program={MSc Applied Physics with specialization in VLSI Design },
+        coursework={Digital Chip Deign and Verification, Mixed Signal VLSI Physical Design Lab, CMOS Integrated Operational Amplifier, Verilog Programming and Deep Learning Lab, Neuromorphic VLSI, Data Converters} ,
+    ]\\   
+    \educationItem[
+    university={University of Calicut},
+    college={Pookoya Thangal Memorial Government College, Perinthalmanna},
+    graduation={April,2020},
+    grade={2.88/6 CGPA},
+    program={BSc Physics},
+    coursework={Electronics, Electrodynamics, Solid state physic spectroscopy and laser physics}
+    ]
+\end{educationSection}
+
+\end{document}
